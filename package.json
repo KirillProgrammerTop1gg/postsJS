@@ -1,0 +1,27 @@
+{
+  "name": "postsjs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "server": "json-server --watch ./data/bd.json -p 1375"
+  },
+  "keywords": [],
+  "author": "GK",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "basiclightbox": "^5.0.4",
+    "handlebars": "^4.7.8",
+    "json-server": "^1.0.0-beta.1",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4",
+    "pnotify": "^5.2.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0"
+  }
+}

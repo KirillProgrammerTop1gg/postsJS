@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "0",
+      "title": "ff",
+      "author": "ff",
+      "text": "ff",
+      "date": "Sat Jul 13 2024",
+      "likes": 0
+    },
+    {
+      "id": "1",
+      "title": "1",
+      "author": "3",
+      "text": "2",
+      "date": "Sat Jul 13 2024",
+      "likes": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": "0",
+      "text": "3",
+      "author": "4",
+      "date": "Sat Jul 13 2024",
+      "postid": "0"
+    }
+  ]
+}
