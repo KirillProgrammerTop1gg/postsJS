@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const getPosts = async () => {
     try {
-        const response = await axios.get('http://localhost:1375/posts');
+        const response = await axios.get('https://66928451346eeafcf46d2b6c.mockapi.io/regit/posts');
         return response.data;
     }
     catch (err) {
@@ -12,7 +12,7 @@ export const getPosts = async () => {
 
 export const getPost = async (idPost) => {
     try {
-        const response = await axios.get(`http://localhost:1375/posts/${idPost}`);
+        const response = await axios.get(`https://66928451346eeafcf46d2b6c.mockapi.io/regit/posts/${idPost}`);
         return response.data;
     }
     catch (err) {
@@ -22,7 +22,7 @@ export const getPost = async (idPost) => {
 
 export const getComms = async () => {
     try {
-        const response = await axios.get('http://localhost:1375/comments');
+        const response = await axios.get('https://66928451346eeafcf46d2b6c.mockapi.io/regit/comments');
         return response.data;
     }
     catch (err) {
@@ -32,7 +32,7 @@ export const getComms = async () => {
 
 export const getComm = async (idComm) => {
     try {
-        const response = await axios.get(`http://localhost:1375/comments/${idComm}`);
+        const response = await axios.get(`https://66928451346eeafcf46d2b6c.mockapi.io/regit/comments/${idComm}`);
         return response.data;
     }
     catch (err) {
@@ -42,7 +42,7 @@ export const getComm = async (idComm) => {
 
 export const addComm = async (addComm) => {
     try {
-        const response = await axios.post('http://localhost:1375/comments/',addComm);
+        const response = await axios.post('https://66928451346eeafcf46d2b6c.mockapi.io/regit/comments/',addComm);
         return response.data;
     }
     catch (err) {
@@ -52,7 +52,7 @@ export const addComm = async (addComm) => {
 
 export const delComm = async (delComm) => {
     try {
-        const response = await axios.delete(`http://localhost:1375/comments/${delComm}`);
+        const response = await axios.delete(`https://66928451346eeafcf46d2b6c.mockapi.io/regit/comments/${delComm}`);
         return response.data;
     }
     catch (err) {
@@ -62,7 +62,7 @@ export const delComm = async (delComm) => {
 
 export const editComm = async (idComm, editComm) => {
     try {
-        const response = await axios.put(`http://localhost:1375/comments/${idComm}`,editComm);
+        const response = await axios.put(`https://66928451346eeafcf46d2b6c.mockapi.io/regit/comments/${idComm}`,editComm);
         return response.data;
     }
     catch (err) {
@@ -72,7 +72,7 @@ export const editComm = async (idComm, editComm) => {
 
 export const addPost = async (newPost) => {
     try {
-        const response = await axios.post('http://localhost:1375/posts', newPost);
+        const response = await axios.post('https://66928451346eeafcf46d2b6c.mockapi.io/regit/posts', newPost);
         return response.data;
     }
     catch (err) {
@@ -82,7 +82,7 @@ export const addPost = async (newPost) => {
 
 export const delPost = async (delPost) => {
     try {
-        const response = await axios.delete(`http://localhost:1375/posts/${delPost}`);
+        const response = await axios.delete(`https://66928451346eeafcf46d2b6c.mockapi.io/regit/posts/${delPost}`);
         return response.data;
     }
     catch (err) {
@@ -92,7 +92,7 @@ export const delPost = async (delPost) => {
 
 export const editPost = async (idPost, editPost) => {
     try {
-        const response = await axios.put(`http://localhost:1375/posts/${idPost}`,editPost);
+        const response = await axios.put(`https://66928451346eeafcf46d2b6c.mockapi.io/regit/posts/${idPost}`,editPost);
         return response.data;
     }
     catch (err) {
